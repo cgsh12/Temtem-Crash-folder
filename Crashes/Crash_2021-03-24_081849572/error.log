@@ -1,0 +1,1820 @@
+﻿Temtem by Crema [version: Unity 2019.4.14f1_df5769635aab]
+
+UnityPlayer.dll caused an Access Violation (0xc0000005)
+  in module UnityPlayer.dll at 0033:c1541e35.
+
+Error occurred at 2021-03-24_011856.
+C:\Program Files (x86)\Steam\steamapps\common\Temtem\Temtem.exe, run by ztakc.
+
+45% physical memory in use.
+16332 MB physical memory [8936 MB free].
+9257 MB process peak paging file [8783 MB used].
+2780 MB process peak working set [2633 MB used].
+System Commit Total/Limit/Peak: 15109MB/18764MB/15531MB
+System Physical Total/Available: 16332MB/8936MB
+System Process Count: 191
+System Thread Count: 2451
+System Handle Count: 81032
+Disk space data for 'C:\Users\ztakc\AppData\Local\Temp\Crema\Temtem\Crashes\Crash_2021-03-24_081849572\': 206934839296 bytes free of 999559262208 total.
+
+Write to location 0000038DF3AB9708 caused an access violation.
+
+Context:
+RDI:    0x000001c6fb71a8c0  RSI: 0x0000000000000000  RAX:   0xffffffffffffffff
+RBX:    0x000001c6fb61b270  RCX: 0x0000000000000000  RDX:   0x0000000000000000
+RIP:    0x00007ffec1541e35  RBP: 0x000001c6fb709700  SegCs: 0x0000000000000033
+EFlags: 0x0000000000010246  RSP: 0x0000005e6636e200  SegSs: 0x000000000000002b
+R8:     0x0000000000000000  R9:  0x000001c6fb3c3cb0  R10:   0x0000000000000000
+R11:    0x000001c6f9a70590  R12: 0x000001c6f9b80470  R13:   0x000001c6fb3c3cb0
+R14:    0x000001c6fb709760  R15: 0x0000038df3ab9708
+
+
+Bytes at CS:EIP:
+41 0f 11 04 cf 42 88 34 22 eb 18 f2 0f 10 14 83 
+
+Mono DLL loaded successfully at 'C:\Program Files (x86)\Steam\steamapps\common\Temtem\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll'.
+
+
+Stack Trace of Crashed Thread 11972:
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFEC1541E35)
+0x00007FFEC1541E35 (UnityPlayer) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFEC15203F2)
+0x00007FFEC15203F2 (UnityPlayer) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFEC151FE00)
+0x00007FFEC151FE00 (UnityPlayer) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFEC151F4DC)
+0x00007FFEC151F4DC (UnityPlayer) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFEC151FFAB)
+0x00007FFEC151FFAB (UnityPlayer) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFEC151F4DC)
+0x00007FFEC151F4DC (UnityPlayer) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFEC151FFAB)
+0x00007FFEC151FFAB (UnityPlayer) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFEC152FF52)
+0x00007FFEC152FF52 (UnityPlayer) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFEC15307EA)
+0x00007FFEC15307EA (UnityPlayer) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFEC1528B08)
+0x00007FFEC1528B08 (UnityPlayer) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFEC1502D3D)
+0x00007FFEC1502D3D (UnityPlayer) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFEC150297A)
+0x00007FFEC150297A (UnityPlayer) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFEC14DC208)
+0x00007FFEC14DC208 (UnityPlayer) (function-name not available)
+0x00007FFEC1B62BB8 (UnityPlayer) UnityMain
+0x00007FFEC1B63E21 (UnityPlayer) UnityMain
+0x00007FFEC1B6105C (UnityPlayer) UnityMain
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFEC14E38E0)
+0x00007FFEC14E38E0 (UnityPlayer) (function-name not available)
+0x00007FFEC1CBCF33 (UnityPlayer) UnityMain
+0x00007FFEC1BA7DA7 (UnityPlayer) UnityMain
+0x00007FFEC1BA7E43 (UnityPlayer) UnityMain
+0x00007FFEC1BAA27C (UnityPlayer) UnityMain
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFEC196001E)
+0x00007FFEC196001E (UnityPlayer) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFEC195ED7A)
+0x00007FFEC195ED7A (UnityPlayer) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFEC1962E2C)
+0x00007FFEC1962E2C (UnityPlayer) (function-name not available)
+0x00007FFEC196691B (UnityPlayer) UnityMain
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF7EF3C11F2)
+0x00007FF7EF3C11F2 (Temtem) (function-name not available)
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+Stacks for Running Threads:
+
+Call Stack for Thread 7936:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFED7E75E8F (mono-2.0-bdwgc) mono_conc_hashtable_remove
+0x00007FFED7F642DD (mono-2.0-bdwgc) mono_gc_reference_queue_new
+0x00007FFED7F630B5 (mono-2.0-bdwgc) mono_callspec_parse
+0x00007FFED7F26398 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFED7F26126 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 12044:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+0x00007FFEC1B63070 (UnityPlayer) UnityMain
+0x00007FFEC1B64140 (UnityPlayer) UnityMain
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 1284:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+0x00007FFEC1B63070 (UnityPlayer) UnityMain
+0x00007FFEC1B64140 (UnityPlayer) UnityMain
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 12704:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+0x00007FFEC1B63070 (UnityPlayer) UnityMain
+0x00007FFEC1B64140 (UnityPlayer) UnityMain
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 13844:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+0x00007FFEC1B63070 (UnityPlayer) UnityMain
+0x00007FFEC1B64140 (UnityPlayer) UnityMain
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 11692:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+0x00007FFEC1B63070 (UnityPlayer) UnityMain
+0x00007FFEC1B64140 (UnityPlayer) UnityMain
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 900:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+0x00007FFEC1B63070 (UnityPlayer) UnityMain
+0x00007FFEC1B64140 (UnityPlayer) UnityMain
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 3796:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+0x00007FFEC1B63070 (UnityPlayer) UnityMain
+0x00007FFEC1B64140 (UnityPlayer) UnityMain
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 12984:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+0x00007FFEC1B63070 (UnityPlayer) UnityMain
+0x00007FFEC1B64140 (UnityPlayer) UnityMain
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 3720:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+0x00007FFEC1B63070 (UnityPlayer) UnityMain
+0x00007FFEC1B64140 (UnityPlayer) UnityMain
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 14048:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+0x00007FFEC1B63070 (UnityPlayer) UnityMain
+0x00007FFEC1B64140 (UnityPlayer) UnityMain
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 14396:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+0x00007FFEC1B63070 (UnityPlayer) UnityMain
+0x00007FFEC1B64140 (UnityPlayer) UnityMain
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 11220:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+0x00007FFEC1B63070 (UnityPlayer) UnityMain
+0x00007FFEC1B64140 (UnityPlayer) UnityMain
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 7528:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+0x00007FFEC1B63070 (UnityPlayer) UnityMain
+0x00007FFEC1B64140 (UnityPlayer) UnityMain
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 2488:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+0x00007FFEC1B63070 (UnityPlayer) UnityMain
+0x00007FFEC1B64140 (UnityPlayer) UnityMain
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 10428:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+0x00007FFEC1B63070 (UnityPlayer) UnityMain
+0x00007FFEC1B64140 (UnityPlayer) UnityMain
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 4104:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+0x00007FFEC1B63070 (UnityPlayer) UnityMain
+0x00007FFEC1B64140 (UnityPlayer) UnityMain
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 5388:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+0x00007FFEC1B63070 (UnityPlayer) UnityMain
+0x00007FFEC1B64140 (UnityPlayer) UnityMain
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 14296:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+0x00007FFEC1B63070 (UnityPlayer) UnityMain
+0x00007FFEC1B64140 (UnityPlayer) UnityMain
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 15296:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+0x00007FFEC1B63070 (UnityPlayer) UnityMain
+0x00007FFEC1B64140 (UnityPlayer) UnityMain
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 7808:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+0x00007FFEC1B63070 (UnityPlayer) UnityMain
+0x00007FFEC1B64140 (UnityPlayer) UnityMain
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 8836:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+0x00007FFEC1B63070 (UnityPlayer) UnityMain
+0x00007FFEC1B64140 (UnityPlayer) UnityMain
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 9828:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+0x00007FFEC1B63070 (UnityPlayer) UnityMain
+0x00007FFEC1B64140 (UnityPlayer) UnityMain
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 13944:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+0x00007FFEC1B63070 (UnityPlayer) UnityMain
+0x00007FFEC1B64140 (UnityPlayer) UnityMain
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 11560:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+0x00007FFEC1B63070 (UnityPlayer) UnityMain
+0x00007FFEC1B64140 (UnityPlayer) UnityMain
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 14376:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+0x00007FFEC1B63070 (UnityPlayer) UnityMain
+0x00007FFEC1B64140 (UnityPlayer) UnityMain
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 14828:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+0x00007FFEC1B63070 (UnityPlayer) UnityMain
+0x00007FFEC1B64140 (UnityPlayer) UnityMain
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 4764:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+0x00007FFEC1B63070 (UnityPlayer) UnityMain
+0x00007FFEC1B64140 (UnityPlayer) UnityMain
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 13432:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+0x00007FFEC1C509EA (UnityPlayer) UnityMain
+0x00007FFEC1BA6FAC (UnityPlayer) UnityMain
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 10368:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+0x00007FFEC1A5B6FD (UnityPlayer) UnityMain
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 2204:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFECA0DEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFECAFF7AAC (nvwgf2umx) OpenAdapter12
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 5012:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFECA0DEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFECAFF7AAC (nvwgf2umx) OpenAdapter12
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 13664:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFECA0DEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFECAFF7AAC (nvwgf2umx) OpenAdapter12
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 4268:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFECA0DEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFECAFF7AAC (nvwgf2umx) OpenAdapter12
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 2152:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFECA0DEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFECAFF7AAC (nvwgf2umx) OpenAdapter12
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 15328:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFECA0DEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFECAFF7AAC (nvwgf2umx) OpenAdapter12
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 14180:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFECAA766D2 (nvwgf2umx) cask::ShaderList<cask::SoftmaxShader,cask::SoftmaxOperation>::availableShaders
+0x00007FFECAA755AA (nvwgf2umx) cask::ShaderList<cask::SoftmaxShader,cask::SoftmaxOperation>::availableShaders
+0x00007FFECAA6A7ED (nvwgf2umx) cask::ShaderList<cask::SoftmaxShader,cask::SoftmaxOperation>::availableShaders
+0x00007FFECA04149A (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFECAFF7AAC (nvwgf2umx) OpenAdapter12
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 1188:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFECA0DEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFECAFF7AAC (nvwgf2umx) OpenAdapter12
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 6700:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFECA0DEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFECAFF7AAC (nvwgf2umx) OpenAdapter12
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 7852:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFECA0DEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFECAFF7AAC (nvwgf2umx) OpenAdapter12
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 15048:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFECA0DEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFECAFF7AAC (nvwgf2umx) OpenAdapter12
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 9808:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFECA0DEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFECAFF7AAC (nvwgf2umx) OpenAdapter12
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 588:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFECA0DEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFECAFF7AAC (nvwgf2umx) OpenAdapter12
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 10064:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFECA0DEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFECAFF7AAC (nvwgf2umx) OpenAdapter12
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 7232:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+0x00007FFEC1C509EA (UnityPlayer) UnityMain
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFEC191E3E5)
+0x00007FFEC191E3E5 (UnityPlayer) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFEC192970D)
+0x00007FFEC192970D (UnityPlayer) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFEC19297E8)
+0x00007FFEC19297E8 (UnityPlayer) (function-name not available)
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 9016:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFECA0DEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFECAFF7AAC (nvwgf2umx) OpenAdapter12
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 10776:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFECA0DEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFECAFF7AAC (nvwgf2umx) OpenAdapter12
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 6556:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFECA0DEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFECAFF7AAC (nvwgf2umx) OpenAdapter12
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 9732:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFECA0DEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFECAFF7AAC (nvwgf2umx) OpenAdapter12
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 12324:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFECA0DEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFECAFF7AAC (nvwgf2umx) OpenAdapter12
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 2720:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFECA0DEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFECAFF7AAC (nvwgf2umx) OpenAdapter12
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 14536:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFECAA766D2 (nvwgf2umx) cask::ShaderList<cask::SoftmaxShader,cask::SoftmaxOperation>::availableShaders
+0x00007FFECAA755AA (nvwgf2umx) cask::ShaderList<cask::SoftmaxShader,cask::SoftmaxOperation>::availableShaders
+0x00007FFECAA6A7ED (nvwgf2umx) cask::ShaderList<cask::SoftmaxShader,cask::SoftmaxOperation>::availableShaders
+0x00007FFECA04149A (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFECAFF7AAC (nvwgf2umx) OpenAdapter12
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 8228:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFECA0DEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFECAFF7AAC (nvwgf2umx) OpenAdapter12
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 9104:
+0x00007FFF2302D764 (ntdll) NtWaitForMultipleObjects
+0x00007FFF20970D40 (KERNELBASE) WaitForMultipleObjectsEx
+0x00007FFF20970C3E (KERNELBASE) WaitForMultipleObjects
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFEC19446E3)
+0x00007FFEC19446E3 (UnityPlayer) (function-name not available)
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 1568:
+0x00007FFF2302D764 (ntdll) NtWaitForMultipleObjects
+0x00007FFF20970D40 (KERNELBASE) WaitForMultipleObjectsEx
+0x00007FFF1D0D7FFF (CoreMessaging) CreateDispatcherQueueController
+0x00007FFF1D0D7CE9 (CoreMessaging) CreateDispatcherQueueController
+0x00007FFF1D0D7471 (CoreMessaging) CreateDispatcherQueueController
+0x00007FFF1D0D6744 (CoreMessaging) CreateDispatcherQueueController
+0x00007FFF1D0D996B (CoreMessaging) CreateDispatcherQueueController
+0x00007FFF1D0D6C28 (CoreMessaging) CreateDispatcherQueueController
+0x00007FFF1D10EBF5 (CoreMessaging) CoreUICreateEx
+0x00007FFF1D10DA7B (CoreMessaging) CoreUICreateEx
+0x00007FFF0C5F25BA (inputhost) Ordinal2604
+0x00007FFF0C5F6809 (inputhost) DllGetActivationFactory
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 5084:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+0x00007FFEC1BBF7AA (UnityPlayer) UnityMain
+0x00007FFEC1BBF929 (UnityPlayer) UnityMain
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 928:
+0x00007FFF2302D764 (ntdll) NtWaitForMultipleObjects
+0x00007FFF20970D40 (KERNELBASE) WaitForMultipleObjectsEx
+0x00007FFF20970C3E (KERNELBASE) WaitForMultipleObjects
+0x00007FFEC9D789F7 (nvwgf2umx) NVDEV_Thunk
+0x00007FFECA04149A (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFECAFF7AAC (nvwgf2umx) OpenAdapter12
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 5952:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFECA0DEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFECAFF7AAC (nvwgf2umx) OpenAdapter12
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 12476:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFECA0DEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFECAFF7AAC (nvwgf2umx) OpenAdapter12
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 6604:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFECA0DEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFECAFF7AAC (nvwgf2umx) OpenAdapter12
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 10208:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFECA0DEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFECAFF7AAC (nvwgf2umx) OpenAdapter12
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 3128:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFECA0DEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFECAFF7AAC (nvwgf2umx) OpenAdapter12
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 14856:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFECA0DEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFECAFF7AAC (nvwgf2umx) OpenAdapter12
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 10172:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFECA0DEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFECAFF7AAC (nvwgf2umx) OpenAdapter12
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 7668:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC23495B2 (UnityPlayer) UnityMain
+0x00007FFEC233080F (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 14300:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFEC1860F87)
+0x00007FFEC1860F87 (UnityPlayer) (function-name not available)
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 3448:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFEC1860F87)
+0x00007FFEC1860F87 (UnityPlayer) (function-name not available)
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 5916:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFEC1860F87)
+0x00007FFEC1860F87 (UnityPlayer) (function-name not available)
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 3152:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFEC1860F87)
+0x00007FFEC1860F87 (UnityPlayer) (function-name not available)
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 4824:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFEC1860F87)
+0x00007FFEC1860F87 (UnityPlayer) (function-name not available)
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 14852:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFEC22ADEC2 (UnityPlayer) UnityMain
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFEC1860F87)
+0x00007FFEC1860F87 (UnityPlayer) (function-name not available)
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 13828:
+0x00007FFF2302D294 (ntdll) NtDelayExecution
+0x00007FFF2096D84E (KERNELBASE) SleepEx
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFEC170F19C)
+0x00007FFEC170F19C (UnityPlayer) (function-name not available)
+0x00007FFEC1C4F978 (UnityPlayer) UnityMain
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 1712:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFED7E75E8F (mono-2.0-bdwgc) mono_conc_hashtable_remove
+0x00007FFED7F279B3 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x000001C97860AB1D (mscorlib) System.Threading.WaitHandle.Wait_internal()
+0x000001C97860A83B (mscorlib) System.Threading.WaitHandle.WaitOneNative()
+0x000001C97860A03B (mscorlib) System.Threading.WaitHandle.InternalWaitOne()
+0x000001C978609E8B (mscorlib) System.Threading.WaitHandle.WaitOne()
+0x000001C97860CD93 (mscorlib) System.Threading.WaitHandle.WaitOne()
+0x000001C97860C6D3 (mscorlib) System.Threading.WaitHandle.WaitOne()
+0x000001C97860B7AE (Rewired_Core) Rewired.Utils.Classes.Utility.ThreadHelper.mKxHgsMFxzHkbpsEwDXviegsxKRo()
+0x000001C97860AD26 (mscorlib) System.Threading.ThreadHelper.ThreadStart_Context()
+0x000001C97860A54E (mscorlib) System.Threading.ExecutionContext.RunInternal()
+0x000001C97860A35B (mscorlib) System.Threading.ExecutionContext.Run()
+0x000001C97860A26B (mscorlib) System.Threading.ExecutionContext.Run()
+0x000001C97860A173 (mscorlib) System.Threading.ThreadHelper.ThreadStart()
+0x000001C978609F94 (mscorlib) System.Object.runtime_invoke_void__this__()
+0x00007FFED7F7D6B0 (mono-2.0-bdwgc) mono_get_runtime_build_info
+0x00007FFED7F02912 (mono-2.0-bdwgc) mono_perfcounters_init
+0x00007FFED7F0BB42 (mono-2.0-bdwgc) mono_runtime_invoke_array
+0x00007FFED7F263DF (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFED7F26126 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 15288:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFED7E75E8F (mono-2.0-bdwgc) mono_conc_hashtable_remove
+0x00007FFED7F279B3 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x000001C97860AB1D (mscorlib) System.Threading.WaitHandle.Wait_internal()
+0x000001C97860A83B (mscorlib) System.Threading.WaitHandle.WaitOneNative()
+0x000001C97860A03B (mscorlib) System.Threading.WaitHandle.InternalWaitOne()
+0x000001C978609E8B (mscorlib) System.Threading.WaitHandle.WaitOne()
+0x000001C97860CD93 (mscorlib) System.Threading.WaitHandle.WaitOne()
+0x000001C97860C6D3 (mscorlib) System.Threading.WaitHandle.WaitOne()
+0x000001C97860B7AE (Rewired_Core) Rewired.Utils.Classes.Utility.ThreadHelper.mKxHgsMFxzHkbpsEwDXviegsxKRo()
+0x000001C97860AD26 (mscorlib) System.Threading.ThreadHelper.ThreadStart_Context()
+0x000001C97860A54E (mscorlib) System.Threading.ExecutionContext.RunInternal()
+0x000001C97860A35B (mscorlib) System.Threading.ExecutionContext.Run()
+0x000001C97860A26B (mscorlib) System.Threading.ExecutionContext.Run()
+0x000001C97860A173 (mscorlib) System.Threading.ThreadHelper.ThreadStart()
+0x000001C978609F94 (mscorlib) System.Object.runtime_invoke_void__this__()
+0x00007FFED7F7D6B0 (mono-2.0-bdwgc) mono_get_runtime_build_info
+0x00007FFED7F02912 (mono-2.0-bdwgc) mono_perfcounters_init
+0x00007FFED7F0BB42 (mono-2.0-bdwgc) mono_runtime_invoke_array
+0x00007FFED7F263DF (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFED7F26126 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 12352:
+0x00007FFF2302D294 (ntdll) NtDelayExecution
+0x00007FFF2096D84E (KERNELBASE) SleepEx
+0x00007FFED5EED05A (fmodstudio) FMOD_Thread_SetAttributes
+0x00007FFED5EE3C1A (fmodstudio) FMOD_File_SetDiskBusy
+0x00007FFED5EEC396 (fmodstudio) FMOD_Thread_SetAttributes
+0x00007FFED5F5E7B1 (fmodstudio) FMOD::SystemI::createMemoryFile
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 11476:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFED5EEF9F9 (fmodstudio) FMOD_Thread_SetAttributes
+0x00007FFED5EE3C01 (fmodstudio) FMOD_File_SetDiskBusy
+0x00007FFED5EEC396 (fmodstudio) FMOD_Thread_SetAttributes
+0x00007FFED5F5E7B1 (fmodstudio) FMOD::SystemI::createMemoryFile
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 2872:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFED5EECD9F (fmodstudio) FMOD_Thread_SetAttributes
+0x00007FFED5E02453 (fmodstudio) FMOD_Studio_VCA_SetVolume
+0x00007FFED5EE3C01 (fmodstudio) FMOD_File_SetDiskBusy
+0x00007FFED5EEC396 (fmodstudio) FMOD_Thread_SetAttributes
+0x00007FFED5F5E7B1 (fmodstudio) FMOD::SystemI::createMemoryFile
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 2976:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFED5EECD9F (fmodstudio) FMOD_Thread_SetAttributes
+0x00007FFED5E2939B (fmodstudio) FMOD_Studio_VCA_SetVolume
+0x00007FFED5EE3C01 (fmodstudio) FMOD_File_SetDiskBusy
+0x00007FFED5EEC396 (fmodstudio) FMOD_Thread_SetAttributes
+0x00007FFED5F5E7B1 (fmodstudio) FMOD::SystemI::createMemoryFile
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 7552:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFED5EECD9F (fmodstudio) FMOD_Thread_SetAttributes
+0x00007FFED5E286BE (fmodstudio) FMOD_Studio_VCA_SetVolume
+0x00007FFED5E28265 (fmodstudio) FMOD_Studio_VCA_SetVolume
+0x00007FFED5EE3C01 (fmodstudio) FMOD_File_SetDiskBusy
+0x00007FFED5EEC396 (fmodstudio) FMOD_Thread_SetAttributes
+0x00007FFED5F5E7B1 (fmodstudio) FMOD::SystemI::createMemoryFile
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 7996:
+0x00007FFF23030604 (ntdll) ZwWaitForAlertByThreadId
+0x00007FFF22FF4295 (ntdll) RtlSleepConditionVariableCS
+0x00007FFF2098B9D9 (KERNELBASE) SleepConditionVariableCS
+0x00007FFED7E7112C (mono-2.0-bdwgc) mono_threads_attach_tools_thread
+0x00007FFED7F27293 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x000001C9C64A5EF3 (mscorlib) System.Threading.Thread.SleepInternal()
+0x000001C9C64A5B9B (mscorlib) System.Threading.Thread.Sleep()
+0x000001C9C64A5B4B (SmartFox2X) Sfs2X.Core.ThreadManager.Sleep()
+0x000001C9C64A599B (SmartFox2X) Sfs2X.Core.ThreadManager.InThread()
+0x000001C97860AD26 (mscorlib) System.Threading.ThreadHelper.ThreadStart_Context()
+0x000001C97860A54E (mscorlib) System.Threading.ExecutionContext.RunInternal()
+0x000001C97860A35B (mscorlib) System.Threading.ExecutionContext.Run()
+0x000001C97860A26B (mscorlib) System.Threading.ExecutionContext.Run()
+0x000001C97860A173 (mscorlib) System.Threading.ThreadHelper.ThreadStart()
+0x000001C978609F94 (mscorlib) System.Object.runtime_invoke_void__this__()
+0x00007FFED7F7D6B0 (mono-2.0-bdwgc) mono_get_runtime_build_info
+0x00007FFED7F02912 (mono-2.0-bdwgc) mono_perfcounters_init
+0x00007FFED7F0BB42 (mono-2.0-bdwgc) mono_runtime_invoke_array
+0x00007FFED7F263DF (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFED7F26126 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 15216:
+0x00007FFF23030604 (ntdll) ZwWaitForAlertByThreadId
+0x00007FFF22FF4295 (ntdll) RtlSleepConditionVariableCS
+0x00007FFF2098B9D9 (KERNELBASE) SleepConditionVariableCS
+0x00007FFED7E7112C (mono-2.0-bdwgc) mono_threads_attach_tools_thread
+0x00007FFED7F27293 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x000001C9C64A5EF3 (mscorlib) System.Threading.Thread.SleepInternal()
+0x000001C9C64A5B9B (mscorlib) System.Threading.Thread.Sleep()
+0x000001C9C64A5B4B (SmartFox2X) Sfs2X.Core.ThreadManager.Sleep()
+0x000001C9C64A575B (SmartFox2X) Sfs2X.Core.ThreadManager.OutThread()
+0x000001C97860AD26 (mscorlib) System.Threading.ThreadHelper.ThreadStart_Context()
+0x000001C97860A54E (mscorlib) System.Threading.ExecutionContext.RunInternal()
+0x000001C97860A35B (mscorlib) System.Threading.ExecutionContext.Run()
+0x000001C97860A26B (mscorlib) System.Threading.ExecutionContext.Run()
+0x000001C97860A173 (mscorlib) System.Threading.ThreadHelper.ThreadStart()
+0x000001C978609F94 (mscorlib) System.Object.runtime_invoke_void__this__()
+0x00007FFED7F7D6B0 (mono-2.0-bdwgc) mono_get_runtime_build_info
+0x00007FFED7F02912 (mono-2.0-bdwgc) mono_perfcounters_init
+0x00007FFED7F0BB42 (mono-2.0-bdwgc) mono_runtime_invoke_array
+0x00007FFED7F263DF (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFED7F26126 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 9292:
+0x00007FFF23030604 (ntdll) ZwWaitForAlertByThreadId
+0x00007FFF22FF4295 (ntdll) RtlSleepConditionVariableCS
+0x00007FFF2098B9D9 (KERNELBASE) SleepConditionVariableCS
+0x00007FFED7E7112C (mono-2.0-bdwgc) mono_threads_attach_tools_thread
+0x00007FFED7F27293 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x000001C9C64A5EF3 (mscorlib) System.Threading.Thread.SleepInternal()
+0x000001C9C64A5B9B (mscorlib) System.Threading.Thread.Sleep()
+0x000001C9C74D7CC3 (GameAnalytics) GameAnalyticsSDK.Net.Threading.GAThreading.Run()
+0x000001C97860AD26 (mscorlib) System.Threading.ThreadHelper.ThreadStart_Context()
+0x000001C97860A54E (mscorlib) System.Threading.ExecutionContext.RunInternal()
+0x000001C97860A35B (mscorlib) System.Threading.ExecutionContext.Run()
+0x000001C97860A26B (mscorlib) System.Threading.ExecutionContext.Run()
+0x000001C97860A173 (mscorlib) System.Threading.ThreadHelper.ThreadStart()
+0x000001C978609F94 (mscorlib) System.Object.runtime_invoke_void__this__()
+0x00007FFED7F7D6B0 (mono-2.0-bdwgc) mono_get_runtime_build_info
+0x00007FFED7F02912 (mono-2.0-bdwgc) mono_perfcounters_init
+0x00007FFED7F0BB42 (mono-2.0-bdwgc) mono_runtime_invoke_array
+0x00007FFED7F263DF (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFED7F26126 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 3388:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFED7E75E8F (mono-2.0-bdwgc) mono_conc_hashtable_remove
+0x00007FFED7F279B3 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x000001C97860AB1D (mscorlib) System.Threading.WaitHandle.Wait_internal()
+0x000001C97860A83B (mscorlib) System.Threading.WaitHandle.WaitOneNative()
+0x000001C97860A03B (mscorlib) System.Threading.WaitHandle.InternalWaitOne()
+0x000001C978609E8B (mscorlib) System.Threading.WaitHandle.WaitOne()
+0x000001C978609DAB (mscorlib) System.Threading.WaitHandle.WaitOne()
+0x000001C978609D55 (mscorlib) System.Threading.WaitHandle.WaitOne()
+0x000001C9C7739547 (Rewired_Windows) KEPDcvALqpSMNubDyxIXUSpRggGV.ApYSzoDKhLmjzjBtfCJYggNePco()
+0x000001C9C7738EC3 (Rewired_Windows) trOPDRdyORqqHQeqbgwCsUAWCWLH.okDwaUaLdEMriJRQZSHSYUHNjGp()
+0x000001C97860AD26 (mscorlib) System.Threading.ThreadHelper.ThreadStart_Context()
+0x000001C97860A54E (mscorlib) System.Threading.ExecutionContext.RunInternal()
+0x000001C97860A35B (mscorlib) System.Threading.ExecutionContext.Run()
+0x000001C97860A26B (mscorlib) System.Threading.ExecutionContext.Run()
+0x000001C97860A173 (mscorlib) System.Threading.ThreadHelper.ThreadStart()
+0x000001C978609F94 (mscorlib) System.Object.runtime_invoke_void__this__()
+0x00007FFED7F7D6B0 (mono-2.0-bdwgc) mono_get_runtime_build_info
+0x00007FFED7F02912 (mono-2.0-bdwgc) mono_perfcounters_init
+0x00007FFED7F0BB42 (mono-2.0-bdwgc) mono_runtime_invoke_array
+0x00007FFED7F263DF (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFED7F26126 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 12120:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFED7E75E8F (mono-2.0-bdwgc) mono_conc_hashtable_remove
+0x00007FFED7F279B3 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x000001C97860AB1D (mscorlib) System.Threading.WaitHandle.Wait_internal()
+0x000001C97860A83B (mscorlib) System.Threading.WaitHandle.WaitOneNative()
+0x000001C97860A03B (mscorlib) System.Threading.WaitHandle.InternalWaitOne()
+0x000001C978609E8B (mscorlib) System.Threading.WaitHandle.WaitOne()
+0x000001C978609DAB (mscorlib) System.Threading.WaitHandle.WaitOne()
+0x000001C9D2E168BF (mscorlib) System.Threading.WaitHandle.WaitOne()
+0x000001C9D2E14D82 (mscorlib) Scheduler.SchedulerThread()
+0x000001C97860AD26 (mscorlib) System.Threading.ThreadHelper.ThreadStart_Context()
+0x000001C97860A54E (mscorlib) System.Threading.ExecutionContext.RunInternal()
+0x000001C97860A35B (mscorlib) System.Threading.ExecutionContext.Run()
+0x000001C97860A26B (mscorlib) System.Threading.ExecutionContext.Run()
+0x000001C97860A173 (mscorlib) System.Threading.ThreadHelper.ThreadStart()
+0x000001C978609F94 (mscorlib) System.Object.runtime_invoke_void__this__()
+0x00007FFED7F7D6B0 (mono-2.0-bdwgc) mono_get_runtime_build_info
+0x00007FFED7F02912 (mono-2.0-bdwgc) mono_perfcounters_init
+0x00007FFED7F0BB42 (mono-2.0-bdwgc) mono_runtime_invoke_array
+0x00007FFED7F263DF (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFED7F26126 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 8744:
+0x00007FFF23030664 (ntdll) NtWaitForWorkViaWorkerFactory
+0x00007FFF22FE2DC7 (ntdll) TpReleaseCleanupGroupMembers
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 14540:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFF1F8D80FC)
+0x00007FFF1F8D80FC (mswsock) (function-name not available)
+0x00007FFF1F8DF4DE (mswsock) Tcpip4_WSHAddressToString
+0x00007FFF221316F7 (WS2_32) select
+0x00007FFED7E696C0 (mono-2.0-bdwgc) mono_poll
+0x00007FFED7F2CC95 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFED7F2D727 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFED7F26398 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFED7F26126 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 2584:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFF1F8D80FC)
+0x00007FFF1F8D80FC (mswsock) (function-name not available)
+0x00007FFF1F8DC8CB (mswsock) NSPStartup
+0x00007FFF22131E51 (WS2_32) recv
+0x00007FFED7F6BC8D (mono-2.0-bdwgc) mono_object_is_alive
+0x00007FFED7F1233C (mono-2.0-bdwgc) mono_opcode_value
+0x000001C9D3E41477 (System) System.Net.Sockets.Socket.Receive_internal()
+0x000001C9D3E412A3 (System) System.Net.Sockets.Socket.Receive_internal()
+0x000001C9D3E4111B (System) System.Net.Sockets.Socket.Receive()
+0x000001C9D3E40E93 (System) System.Net.Sockets.Socket.Receive()
+0x000001C9D3E4090B (System) System.Net.Sockets.NetworkStream.Read()
+0x000001C9D5E99BB8 (SmartFox2X) Sfs2X.Core.Sockets.TCPSocketLayer.Read()
+0x000001C97860AD26 (mscorlib) System.Threading.ThreadHelper.ThreadStart_Context()
+0x000001C97860A54E (mscorlib) System.Threading.ExecutionContext.RunInternal()
+0x000001C97860A35B (mscorlib) System.Threading.ExecutionContext.Run()
+0x000001C97860A26B (mscorlib) System.Threading.ExecutionContext.Run()
+0x000001C97860A173 (mscorlib) System.Threading.ThreadHelper.ThreadStart()
+0x000001C978609F94 (mscorlib) System.Object.runtime_invoke_void__this__()
+0x00007FFED7F7D6B0 (mono-2.0-bdwgc) mono_get_runtime_build_info
+0x00007FFED7F02912 (mono-2.0-bdwgc) mono_perfcounters_init
+0x00007FFED7F0BB42 (mono-2.0-bdwgc) mono_runtime_invoke_array
+0x00007FFED7F263DF (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFED7F26126 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 12568:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFF2093A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFED5EECD9F (fmodstudio) FMOD_Thread_SetAttributes
+0x00007FFED5EE3BE1 (fmodstudio) FMOD_File_SetDiskBusy
+0x00007FFED5EEC396 (fmodstudio) FMOD_Thread_SetAttributes
+0x00007FFED5F5E7B1 (fmodstudio) FMOD::SystemI::createMemoryFile
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 7288:
+0x00007FFF2302D294 (ntdll) NtDelayExecution
+0x00007FFF2096D84E (KERNELBASE) SleepEx
+0x00007FFED5EED05A (fmodstudio) FMOD_Thread_SetAttributes
+0x00007FFED5EE3C1A (fmodstudio) FMOD_File_SetDiskBusy
+0x00007FFED5EEC396 (fmodstudio) FMOD_Thread_SetAttributes
+0x00007FFED5F5E7B1 (fmodstudio) FMOD::SystemI::createMemoryFile
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 7728:
+0x00007FFF2302CC94 (ntdll) ZwWaitForSingleObject
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFF1F8D80FC)
+0x00007FFF1F8D80FC (mswsock) (function-name not available)
+0x00007FFF1F8EDE0B (mswsock) Tcpip6_WSHGetWildcardSockaddr
+0x00007FFF22133E74 (WS2_32) recvfrom
+0x00007FFED7F6BE1A (mono-2.0-bdwgc) mono_object_is_alive
+0x00007FFED7F120A2 (mono-2.0-bdwgc) mono_opcode_value
+0x000001C8AA33F393 (System) System.Net.Sockets.Socket.ReceiveFrom_internal()
+0x000001C8AA33EF9B (System) System.Net.Sockets.Socket.ReceiveFrom_internal()
+0x000001C8AA33ED73 (System) System.Net.Sockets.Socket.ReceiveFrom()
+0x000001C8AA33E9F3 (System) System.Net.Sockets.Socket.ReceiveFrom()
+0x000001C8AA33E74B (System) System.Net.Sockets.Socket.ReceiveFrom()
+0x000001C8AA33E5C3 (System) System.Net.Sockets.UdpClient.Receive()
+0x000001C8AA33E123 (SmartFox2X) Sfs2X.Core.Sockets.UDPSocketLayer.Read()
+0x000001C97860AD26 (mscorlib) System.Threading.ThreadHelper.ThreadStart_Context()
+0x000001C97860A54E (mscorlib) System.Threading.ExecutionContext.RunInternal()
+0x000001C97860A35B (mscorlib) System.Threading.ExecutionContext.Run()
+0x000001C97860A26B (mscorlib) System.Threading.ExecutionContext.Run()
+0x000001C97860A173 (mscorlib) System.Threading.ThreadHelper.ThreadStart()
+0x000001C978609F94 (mscorlib) System.Object.runtime_invoke_void__this__()
+0x00007FFED7F7D6B0 (mono-2.0-bdwgc) mono_get_runtime_build_info
+0x00007FFED7F02912 (mono-2.0-bdwgc) mono_perfcounters_init
+0x00007FFED7F0BB42 (mono-2.0-bdwgc) mono_runtime_invoke_array
+0x00007FFED7F263DF (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFED7F26126 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 9532:
+0x00007FFF23030604 (ntdll) ZwWaitForAlertByThreadId
+0x00007FFF22FF4295 (ntdll) RtlSleepConditionVariableCS
+0x00007FFF2098B9D9 (KERNELBASE) SleepConditionVariableCS
+0x00007FFED7E7112C (mono-2.0-bdwgc) mono_threads_attach_tools_thread
+0x00007FFED7F27293 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x000001C9C64A5EF3 (mscorlib) System.Threading.Thread.SleepInternal()
+0x000001C9C64A5B9B (mscorlib) System.Threading.Thread.Sleep()
+0x000001C8AA3CDE5B (Assembly-CSharp) Temtem.Network.Chat.TemtemChatThreadManager.jhgnregpclj()
+0x000001C8AA3CDC23 (Assembly-CSharp) Temtem.Network.Chat.TemtemChatThreadManager.nljcjgrqigi()
+0x000001C97860AD26 (mscorlib) System.Threading.ThreadHelper.ThreadStart_Context()
+0x000001C97860A54E (mscorlib) System.Threading.ExecutionContext.RunInternal()
+0x000001C97860A35B (mscorlib) System.Threading.ExecutionContext.Run()
+0x000001C97860A26B (mscorlib) System.Threading.ExecutionContext.Run()
+0x000001C97860A173 (mscorlib) System.Threading.ThreadHelper.ThreadStart()
+0x000001C978609F94 (mscorlib) System.Object.runtime_invoke_void__this__()
+0x00007FFED7F7D6B0 (mono-2.0-bdwgc) mono_get_runtime_build_info
+0x00007FFED7F02912 (mono-2.0-bdwgc) mono_perfcounters_init
+0x00007FFED7F0BB42 (mono-2.0-bdwgc) mono_runtime_invoke_array
+0x00007FFED7F263DF (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFED7F26126 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 14892:
+0x00007FFF23030664 (ntdll) NtWaitForWorkViaWorkerFactory
+0x00007FFF22FE2DC7 (ntdll) TpReleaseCleanupGroupMembers
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 9476:
+0x00007FFF23030604 (ntdll) ZwWaitForAlertByThreadId
+0x00007FFF22FF4295 (ntdll) RtlSleepConditionVariableCS
+0x00007FFF2098B9D9 (KERNELBASE) SleepConditionVariableCS
+0x00007FFED7F2BA37 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFED7F2BDE8 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFED7F26398 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFED7F26126 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 10908:
+0x00007FFF23030604 (ntdll) ZwWaitForAlertByThreadId
+0x00007FFF22FF4295 (ntdll) RtlSleepConditionVariableCS
+0x00007FFF2098B9D9 (KERNELBASE) SleepConditionVariableCS
+0x00007FFED7F2BA37 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFED7F2BDE8 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFED7F26398 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFED7F26126 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 12196:
+0x00007FFF23030604 (ntdll) ZwWaitForAlertByThreadId
+0x00007FFF22FF4295 (ntdll) RtlSleepConditionVariableCS
+0x00007FFF2098B9D9 (KERNELBASE) SleepConditionVariableCS
+0x00007FFED7F2BA37 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFED7F2BDE8 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFED7F26398 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFED7F26126 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 13568:
+0x00007FFF23030664 (ntdll) NtWaitForWorkViaWorkerFactory
+0x00007FFF22FE2DC7 (ntdll) TpReleaseCleanupGroupMembers
+0x00007FFF21F97034 (KERNEL32) BaseThreadInitThunk
+0x00007FFF22FE2651 (ntdll) RtlUserThreadStart
+
+
+
+
+Stack Memory [0x0000005E6636E200-0x0000005E66380000]:
+0x6636e200: 0f4e2608 000001c8 d0001890 000001c6 .&N.............
+0x6636e210: 00000000 00000000 f6127c30 000001c6 ........0|......
+0x6636e220: 00000001 00000000 00000000 00000000 ................
+0x6636e230: 0f4e2090 000001c8 c1530c1a 00007ffe . N.......S.....
+0x6636e240: 00000001 00000000 0f4e2090 000001c8 ......... N.....
+0x6636e250: 6636e300 0000005e 6636e4a0 0000005e ..6f^.....6f^...
+0x6636e260: 6636e2b0 0000005e 6636e2a0 0000005e ..6f^.....6f^...
+0x6636e270: 00000000 00000000 03f029d0 000001c8 .........)......
+0x6636e280: 00000001 00000000 00000000 00000000 ................
+0x6636e290: f98b9b70 000001c6 6636e710 0000005e p.........6f^...
+0x6636e2a0: f9b631a0 000001c6 c15203f2 00007ffe .1........R.....
+0x6636e2b0: fb709700 000001c6 fb709760 000001c6 ..p.....`.p.....
+0x6636e2c0: 0f48f3b0 000001c8 00000004 00007ffe ..H.............
+0x6636e2d0: fbc205f0 000001c6 fb3c4190 000001c6 .........A<.....
+0x6636e2e0: 6636e400 0000005e fb3c3c30 000001c6 ..6f^...0<<.....
+0x6636e2f0: fad908d0 000001c6 00000000 00000000 ................
+0x6636e300: 00000000 00000000 fb4d3740 000001c6 ........@7M.....
+0x6636e310: f9a70590 000001c6 4354518a 4354507c .........QTC|PTC
+0x6636e320: 3f800000 00000100 3dcccccd 00000000 ...?.......=....
+0x6636e330: bf800000 000001c6 00000000 00000000 ................
+0x6636e340: 00000000 00000000 00000000 00000000 ................
+0x6636e350: 00000000 00000000 6636e6f8 0000005e ..........6f^...
+0x6636e360: 0f48f3b0 000001c8 6636e710 0000005e ..H.......6f^...
+0x6636e370: f9b631a0 000001c6 c151fe00 00007ffe .1........Q.....
+0x6636e380: f6127c30 000001c6 00000001 00000000 0|..............
+0x6636e390: 000000a0 00000000 00000000 00000000 ................
+0x6636e3a0: 6636ee50 0000005e c25d8d00 000001c9 P.6f^.....].....
+0x6636e3b0: 00000000 00000000 00000000 00000000 ................
+0x6636e3c0: 6636e430 0000005e c77cd543 000001c9 0.6f^...C.|.....
+0x6636e3d0: c285bf50 00007ffe 00000002 00007ffe P...............
+0x6636e3e0: f9b628c8 000001c6 c151f4dc 00007ffe .(........Q.....
+0x6636e3f0: f9b628e8 000001c6 f9b627a0 000001c6 .(.......'......
+0x6636e400: 00000001 00000000 00000468 00000000 ........h.......
+0x6636e410: f01bf9b0 000001c6 0f4e1fe0 000001c8 ..........N.....
+0x6636e420: 0000000a 00000000 00000000 00000000 ................
+0x6636e430: 00000000 00000000 00000000 00000000 ................
+0x6636e440: 00000000 00000000 00000000 00000000 ................
+0x6636e450: 00000001 00000000 00000000 00000000 ................
+0x6636e460: 00000030 00000000 00000000 00000000 0...............
+0x6636e470: 00000001 00000000 f9b62578 000001c6 ........x%......
+0x6636e480: 00000001 00000000 6636e4e9 0000005e ..........6f^...
+0x6636e490: f9b62598 000001c6 c151ffab 00007ffe .%........Q.....
+0x6636e4a0: f9b677d0 000001c6 0f48f3b0 000001c8 .w........H.....
+0x6636e4b0: 6636e710 0000005e 6636e6f8 0000005e ..6f^.....6f^...
+0x6636e4c0: 6636e530 0000005e 6636e520 0000005e 0.6f^... .6f^...
+0x6636e4d0: 6636e510 0000005e 6636e500 0000005e ..6f^.....6f^...
+0x6636e4e0: 6636e4f0 0000005e 6636e880 3e1c3faa ..6f^.....6f.?.>
+0x6636e4f0: c15201e0 00007ffe 00000000 000001c7 ..R.............
+0x6636e500: c15200b0 00007ffe 00000000 000001c6 ..R.............
+0x6636e510: c1520170 00007ffe 00000000 00000000 p.R.............
+0x6636e520: c1520080 00007ffe 00000000 00007ffe ..R.............
+0x6636e530: c150133c 00007ffe 00000000 0007ffff <.P.............
+0x6636e540: f9b62450 000001c6 c151f4dc 00007ffe P$........Q.....
+0x6636e550: 00000000 000001c7 00000000 bf70af6d ............m.p.
+0x6636e560: 00000008 00000000 6636e700 0000005e ..........6f^...
+0x6636e570: f9874ce0 000001c6 c1cb8b34 00007ffe .L......4.......
+0x6636e580: 00000003 00000000 c0151457 402cccc8 ........W.....,@
+0x6636e590: 00000000 00000000 00000000 00000000 ................
+0x6636e5a0: 3f800000 00000000 00000000 00000000 ...?............
+0x6636e5b0: b0002950 000001c6 00000000 00000000 P)..............
+0x6636e5c0: 00000000 00000000 f9b61f70 000001c6 ........p.......
+0x6636e5d0: 00000000 00000000 f9b62450 000001c6 ........P$......
+0x6636e5e0: 00000000 00000000 6636e649 0000005e ........I.6f^...
+0x6636e5f0: f98b9b70 000001c6 c151ffab 00007ffe p.........Q.....
+0x6636e600: f9b62690 000001c6 0f48f3b0 000001c8 .&........H.....
+0x6636e610: 6636e710 0000005e 6636e6f8 0000005e ..6f^.....6f^...
+0x6636e620: 6636e690 0000005e 6636e680 0000005e ..6f^.....6f^...
+0x6636e630: 6636e670 0000005e 6636e660 0000005e p.6f^...`.6f^...
+0x6636e640: 6636e650 0000005e c154a9d2 00007ffe P.6f^.....T.....
+0x6636e650: c15201e0 00007ffe 00000000 00007ffe ..R.............
+0x6636e660: c15200b0 00007ffe 00000000 0000005e ..R.........^...
+0x6636e670: c1520170 00007ffe 00000000 00007ffe p.R.............
+0x6636e680: c1520080 00007ffe 00000000 00000000 ..R.............
+0x6636e690: c150133c 00007ffe 00000000 00000000 <.P.............
+0x6636e6a0: 6636e7a1 0000005e c152ff52 00007ffe ..6f^...R.R.....
+0x6636e6b0: f98b9b70 000001c6 6636e7a1 0000005e p.........6f^...
+0x6636e6c0: 00000000 00000000 f9b62450 000001c6 ........P$......
+0x6636e6d0: fa4b8530 000001c6 75994318 000001c7 0.K......C.u....
+0x6636e6e0: 75da0020 000001c7 00000000 00007ffe  ..u............
+0x6636e6f0: f9b79060 000001c6 f98b9b70 000001c6 `.......p.......
+0x6636e700: 66360000 0000005e f94068f0 000001c6 ..6f^....h@.....
+0x6636e710: 00000000 00000000 fb3c3c30 000001c6 ........0<<.....
+0x6636e720: 10d0d370 000001c7 00000000 00000000 p...............
+0x6636e730: f9b792e8 000001c6 00000000 00000000 ................
+0x6636e740: fb709700 000001c6 fa83cf00 000001c6 ..p.............
+0x6636e750: 10c92be0 000001c7 00000225 00000000 .+......%.......
+0x6636e760: 00000015 00000000 00000000 00000000 ................
+0x6636e770: 3c06e0c5 00000000 00000000 00000000 ...<............
+0x6636e780: 00000000 00000000 00000000 00000000 ................
+0x6636e790: 3f800000 00000000 00000000 00000000 ...?............
+0x6636e7a0: 00000000 00000000 0f48f928 000001c8 ........(.H.....
+0x6636e7b0: 0f48f3b0 000001c8 d0001410 000001c6 ..H.............
+0x6636e7c0: 6636ea40 0000005e 00000001 00000000 @.6f^...........
+0x6636e7d0: f9a98b30 000001c6 00000000 00000000 0...............
+0x6636e7e0: 6636ea40 0000005e c15307ea 00007ffe @.6f^.....S.....
+0x6636e7f0: 00000009 00000000 0f48f3b0 000001c8 ..........H.....
+0x6636e800: 6636e8a0 0000005e 6636ea40 0000005e ..6f^...@.6f^...
+0x6636e810: 6636e860 0000005e 6636e850 0000005e `.6f^...P.6f^...
+0x6636e820: 6636e840 0000005e 6636e830 0000005e @.6f^...0.6f^...
+0x6636e830: c15308e0 00007ffe 00000000 00000000 ..S.............
+0x6636e840: c1520080 00007ffe 00000000 00000000 ..R.............
+0x6636e850: c1530ac0 00007ffe 00000000 00000000 ..S.............
+0x6636e860: c150133c 00007ffe 00000000 00000000 <.P.............
+0x6636e870: 00000000 3f800000 c1528b08 00007ffe .......?..R.....
+0x6636e880: 3f800000 00000000 34400000 00000000 ...?......@4....
+0x6636e890: 00000000 bf3504f5 00000000 00000000 ......5.........
+0x6636e8a0: 00000000 00000000 fb3c3c30 000001c6 ........0<<.....
+0x6636e8b0: 10d0d370 000001c7 00000000 00000000 p...............
+0x6636e8c0: fc4b5b90 000001c6 00000000 00000000 .[K.............
+0x6636e8d0: fb709700 000001c6 00000000 00000000 ..p.............
+0x6636e8e0: 10c92be0 000001c7 00000225 00000000 .+......%.......
+0x6636e8f0: 00000015 00000000 00000000 00000000 ................
+0x6636e900: 0f48f3b0 000001c8 c1502d3d 00007ffe ..H.....=-P.....
+0x6636e910: 00000001 00000000 f9a98b30 000001c6 ........0.......
+0x6636e920: 7038f110 000001c6 c1502730 00007ffe ..8p....0'P.....
+0x6636e930: 00000000 00000000 00000000 00000000 ................
+0x6636e940: 00000000 00000000 00000000 00000000 ................
+0x6636e950: 10d0d290 000001c7 c14db403 00007ffe ..........M.....
+0x6636e960: c285bf50 00007ffe 00000002 00000000 P...............
+0x6636e970: 00000000 00000000 c19a0000 00007ffe ................
+0x6636e980: 00000000 00000000 00000000 00000000 ................
+0x6636e990: 10c92be0 000001c7 00000225 00000000 .+......%.......
+0x6636e9a0: f01bf9b0 000001c6 0f48f4b8 000001c8 ..........H.....
+0x6636e9b0: 6636ed50 0000005e 00000000 00000000 P.6f^...........
+0x6636e9c0: d0001410 000001c6 0f48f928 000001c8 ........(.H.....
+0x6636e9d0: 00000000 00000000 c150297a 00007ffe ........z)P.....
+0x6636e9e0: 0f48f301 000001c8 0f48f3b0 000001c8 ..H.......H.....
+0x6636e9f0: 00000000 00000000 6636ea40 0000005e ........@.6f^...
+0x6636ea00: c14a69e0 00007ffe c1502680 00007ffe .iJ......&P.....
+0x6636ea10: c1502730 00007ffe c15026c0 00007ffe 0'P......&P.....
+0x6636ea20: 6636ea30 0000005e 00000000 00000000 0.6f^...........
+0x6636ea30: c150133c 00007ffe 00000000 00000000 <.P.............
+0x6636ea40: 6636ea50 0000005e 00000000 00000000 P.6f^...........
+0x6636ea50: 10c76a40 000001c7 108aaba0 000001c7 @j..............
+0x6636ea60: 108aaa20 000001c7 c14dcc00 00007ffe  .........M.....
+0x6636ea70: 00000000 00000000 00000000 00000000 ................
+0x6636ea80: 00000000 00000000 20986e9b 00007fff .........n. ....
+0x6636ea90: 00000000 00000000 00000000 00000000 ................
+0x6636eaa0: f9936580 000001c6 c14dc208 00007ffe .e........M.....
+0x6636eab0: 00000028 00000000 00000000 00000000 (...............
+0x6636eac0: 00000032 00000000 6636ed50 0000005e 2.......P.6f^...
+0x6636ead0: f7159f30 000001c6 c1b62bb8 00007ffe 0........+......
+0x6636eae0: f7159f30 000001c6 00000001 00000000 0...............
+0x6636eaf0: f9936580 000001c6 036c62b4 00000000 .e.......bl.....
+0x6636eb00: 00000000 00000000 6636ec10 0000005e ..........6f^...
+0x6636eb10: f01bf9b0 000001c6 00000000 00000000 ................
+0x6636eb20: f7159f30 000001c6 c1b63e21 00007ffe 0.......!>......
+0x6636eb30: f9936580 000001c6 6636ed00 0000005e .e........6f^...
+0x6636eb40: 000bbc12 00000000 f7159f30 000001c6 ........0.......
+0x6636eb50: 6636ec10 0000005e 6636ed50 0000005e ..6f^...P.6f^...
+0x6636eb60: 00000001 00000000 c1b63872 00007ffe ........r8......
+0x6636eb70: f7159f30 000001c6 000bbc11 00000000 0...............
+0x6636eb80: f01bf9b0 000001c6 000bbc11 00000000 ................
+0x6636eb90: b0007c70 000001c6 00000002 00000000 p|..............
+0x6636eba0: 00000001 00000000 00000000 00000000 ................
+0x6636ebb0: 00000001 00000000 6636ec70 0000005e ........p.6f^...
+0x6636ebc0: 6636ed30 0000005e 00000054 00000000 0.6f^...T.......
+0x6636ebd0: f6aabf78 000001c6 00000000 00000000 x...............
+0x6636ebe0: 00000000 00000000 c1b6105c 00007ffe ........\.......
+0x6636ebf0: 00000000 00000000 6636ec10 0000005e ..........6f^...
+0x6636ec00: b0007c70 000001c6 00000000 00000000 p|..............
+0x6636ec10: f7159f30 000001c6 000bbc12 00000000 0...............
+0x6636ec20: 00000000 00000000 c14e38e0 00007ffe .........8N.....
+0x6636ec30: 6636eef0 0000005e 6636ed30 0000005e ..6f^...0.6f^...
+0x6636ec40: 00000000 00000000 00000000 00000000 ................
+0x6636ec50: 6636ec80 0000005e 00000000 00000000 ..6f^...........
+0x6636ec60: 00000001 000001c6 c19a7800 00007ffe .........x......
+0x6636ec70: f7159f30 000001c6 000bbc12 00000000 0...............
+0x6636ec80: 00000000 00000000 00000000 00000000 ................
+0x6636ec90: d0002a20 000001c6 00000001 00007ffe  *..............
+0x6636eca0: 00000000 00000000 000000a8 00000000 ................
+0x6636ecb0: d0000010 000001c6 00000001 00000000 ................
+0x6636ecc0: 00000054 00000000 000000a8 00000000 T...............
+0x6636ecd0: 00000054 00000000 00000000 00000000 T...............
+0x6636ece0: 00000001 000001c6 00000000 00000000 ................
+0x6636ecf0: 00000000 00000000 00000000 00000000 ................
+0x6636ed00: 00000001 00000000 00000000 00000000 ................
+0x6636ed10: 00000000 00000000 d00056e0 000001c6 .........V......
+0x6636ed20: 00000001 00000000 00000005 00000000 ................
+0x6636ed30: 000000a8 00000000 c19a791d 00007ffe .........y......
+0x6636ed40: 00002ec4 00000000 00000008 00000000 ................
+0x6636ed50: c14dccb0 00007ffe d0000010 000001c6 ..M.............
+0x6636ed60: 00000054 00000000 00000009 00000000 T...............
+0x6636ed70: 00000000 00000000 0000000a 00000000 ................
+0x6636ed80: 00000009 00000000 0000000a 00000000 ................
+0x6636ed90: 0000000a 00000000 00000009 00000000 ................
+0x6636eda0: 00000014 00000000 0000000a 00000000 ................
+0x6636edb0: 00000009 00000000 0000001e 00000000 ................
+0x6636edc0: 0000000a 00000000 00000009 00000000 ................
+0x6636edd0: 00000028 00000000 0000000a 00000000 (...............
+0x6636ede0: 00000009 00000000 00000032 00000000 ........2.......
+0x6636edf0: 0000000a 00000000 00000009 00000000 ................
+0x6636ee00: 0000003c 00000000 0000000a 00000000 <...............
+0x6636ee10: 00000009 00000000 00000046 00000000 ........F.......
+0x6636ee20: 0000000a 00000000 00000009 00000000 ................
+0x6636ee30: 00000050 00000000 00000004 00000000 P...............
+0x6636ee40: 00000009 00000000 00000010 00000000 ................
+0x6636ee50: 00000000 00000000 c19a7ddd 00007ffe .........}......
+0x6636ee60: 00000000 00000000 00000000 00000000 ................
+0x6636ee70: 00000000 00000000 00000000 00000000 ................
+0x6636ee80: 6636ef38 0000005e c1cbd05d 00007ffe 8.6f^...].......
+0x6636ee90: 0000028e 0000005e 00000000 00000000 ....^...........
+0x6636eea0: f6aabf70 000001c6 c14d3dc0 00007ffe p........=M.....
+0x6636eeb0: 6636ef00 0000005e 00000000 00000000 ..6f^...........
+0x6636eec0: 00000053 00000000 00000004 00007ffe S...............
+0x6636eed0: f8c28988 000001c6 c1cbedae 00007ffe ................
+0x6636eee0: f58def70 000001c6 c1cbe8d4 00007ffe p...............
+0x6636eef0: 00000000 00000000 00000000 00000000 ................
+0x6636ef00: 00000000 00000000 00000000 00000000 ................
+0x6636ef10: 00000000 00000000 00000000 00000000 ................
+0x6636ef20: 00000000 00000000 00000000 00000000 ................
+0x6636ef30: 00000000 00000000 00000000 00000000 ................
+0x6636ef40: 00000001 00000000 00000000 00000000 ................
+0x6636ef50: 00000000 00000000 66666667 66666666 ........gfffffff
+0x6636ef60: 0000000a 00000000 4974393a 000001c6 ........:9tI....
+0x6636ef70: f001e610 000001c6 00000000 00000000 ................
+0x6636ef80: f001e5b0 000001c6 c1cbcf33 00007ffe ........3.......
+0x6636ef90: f6aabf78 000001c6 00000000 00000000 x...............
+0x6636efa0: 00000000 00000000 00000000 00000000 ................
+0x6636efb0: 00000000 00000000 00000003 00000000 ................
+0x6636efc0: f58dedd0 000001c6 c1ba7da7 00007ffe .........}......
+0x6636efd0: 00000000 00000000 f58def70 000001c6 ........p.......
+0x6636efe0: 00000000 00000000 01db9b90 000001c8 ................
+0x6636eff0: 000905c0 00000000 c194ce29 00007ffe ........).......
+0x6636f000: 6636f060 0000005e 6636f020 0000005e `.6f^... .6f^...
+0x6636f010: 00000000 00000000 6636f140 0000005e ........@.6f^...
+0x6636f020: 00000000 00000000 d7f0b9a2 00007ffe ................
+0x6636f030: 6636f1c0 0000005e 00000000 00000000 ..6f^...........
+0x6636f040: d3e8d118 000001c7 c1ce63ad 00007ffe .........c......
+0x6636f050: 00000000 00000000 00000000 00000000 ................
+0x6636f060: d7f0b900 00007ffe 00000003 00000000 ................
+0x6636f070: 00000000 00000000 c1ce3763 00007ffe ........c7......
+0x6636f080: 00000000 00000000 6636f128 0000005e ........(.6f^...
+0x6636f090: 6636f130 0000005e 6636f140 0000005e 0.6f^...@.6f^...
+0x6636f0a0: 6636f130 0000005e c1cddd00 00007ffe 0.6f^...........
+0x6636f0b0: 00000000 00000000 00000000 00000000 ................
+0x6636f0c0: 6636f2b0 0000005e 00000000 00000000 ..6f^...........
+0x6636f0d0: 00000000 00000000 c1ce09a5 00007ffe ................
+0x6636f0e0: 00000000 00000000 00000000 00000000 ................
+0x6636f0f0: 00000000 00000000 f223e910 000001c6 ..........#.....
+0x6636f100: 6636f2b0 0000005e c14b2524 00007ffe ..6f^...$%K.....
+0x6636f110: 00000000 00000000 00000000 00000000 ................
+0x6636f120: 6636f1c0 0000005e 00000000 00000000 ..6f^...........
+0x6636f130: 00000000 00000000 d3e8d118 000001c7 ................
+0x6636f140: 00000001 00000000 00407be2 00000000 .........{@.....
+0x6636f150: 00000043 00000000 f58dd230 000001c6 C.......0.......
+0x6636f160: 00000000 00000000 c1ba7e43 00007ffe ........C~......
+0x6636f170: 00000000 00000000 00000000 00000000 ................
+0x6636f180: f58dedd0 000001c6 80000012 00000000 ................
+0x6636f190: 6636f390 0000005e c14b2524 00007ffe ..6f^...$%K.....
+0x6636f1a0: 6636f140 0000005e 00000000 00000000 @.6f^...........
+0x6636f1b0: 00000000 00000000 00000000 00000000 ................
+0x6636f1c0: 00000000 00000000 00000000 00000000 ................
+0x6636f1d0: 00000000 00000000 00000000 00000000 ................
+0x6636f1e0: 00000000 00000000 00000000 00000000 ................
+0x6636f1f0: 00000000 00000000 00000000 00000000 ................
+0x6636f200: 00000001 00000000 00000103 000001c6 ................
+0x6636f210: 870367ed 0000205f f215b8d0 000001c6 .g.._ ..........
+0x6636f220: f215b8d0 000001c6 004044f5 00000000 .........D@.....
+0x6636f230: 00000001 0000005e d3e8d118 000001c7 ....^...........
+0x6636f240: 00000000 00000000 00000000 00000000 ................
+0x6636f250: 00000000 00000000 00000000 00000000 ................
+0x6636f260: 00000000 00000000 00000101 00000000 ................
+0x6636f270: 1007a080 000001c7 c196a8df 00007ffe ................
+0x6636f280: b00afee0 000001c6 00000000 00000000 ................
+0x6636f290: 00000001 00000000 2219a5c3 00007fff ..........."....
+0x6636f2a0: 00000000 00000000 c196a310 00007ffe ................
+0x6636f2b0: 00000001 000001c9 00000000 00000000 ................
+0x6636f2c0: 00000001 00000000 d3e8d118 000001c7 ................
+0x6636f2d0: 00000000 00000000 c196b884 00007ffe ................
+0x6636f2e0: 1007a080 000001c7 00000000 00000000 ................
+0x6636f2f0: 00000000 00000000 00000000 00000000 ................
+0x6636f300: 00000000 00000000 c1baa27c 00007ffe ........|.......
+0x6636f310: 000008a4 00000000 4974393a 000001c6 ........:9tI....
+0x6636f320: 000008a4 00000000 6636f370 0000005e ........p.6f^...
+0x6636f330: 00000000 000001c6 000008a4 00000000 ................
+0x6636f340: 00000000 00000000 c194b237 00007ffe ........7.......
+0x6636f350: 00000000 00000a00 6636f370 0000005e ........p.6f^...
+0x6636f360: 000008fe 00000278 450fe000 4449c000 ....x......E..ID
+0x6636f370: 00001829 00000000 76004dff 000000ff )........M.v....
+0x6636f380: 00000000 00000000 c196001e 00007ffe ................
+0x6636f390: 00000001 00000000 00000000 00000000 ................
+0x6636f3a0: 00000001 00000000 00000000 00000000 ................
+0x6636f3b0: 00000000 00000000 c195ed7a 00007ffe ........z.......
+0x6636f3c0: 000008a4 00000000 00000000 00000000 ................
+0x6636f3d0: 00000000 00000000 00000000 00000000 ................
+0x6636f3e0: 00000001 00000000 00000000 00000000 ................
+0x6636f3f0: 000905c0 00000000 000000ff 00000000 ................
+0x6636f400: 00000000 00000000 006706eb 00000000 ..........g.....
+0x6636f410: 05bab0b7 000008fe 00000278 00000000 ........x.......
+0x6636f420: ffffff00 ffffffff c1962e2c 00007ffe ........,.......
+0x6636f430: 00000001 00000000 00000000 00000000 ................
+0x6636f440: 00000000 00000000 00000000 00000000 ................
+0x6636f450: 000001f5 00000000 000001f6 00000000 ................
+0x6636f460: 0000001d 00000000 00000000 00000000 ................
+0x6636f470: 00000000 00000000 00000000 00000000 ................
+0x6636f480: 00000000 00000000 00000000 00000000 ................
+0x6636f490: 00000000 00000000 65726170 5748746e ........parentHW
+0x6636f4a0: 7700444e 00006265 0000000a 00000000 ND.web..........
+0x6636f4b0: 00000048 00000000 d6749e40 000001c7 H.......@.t.....
+0x6636f4c0: 00000013 00000000 00000000 00000000 ................
+0x6636f4d0: 00000013 00000000 00000048 00000000 ........H.......
+0x6636f4e0: 00000000 00000000 65646968 646e6957 ........hideWind
+0x6636f4f0: 0000776f 00000000 0000000a 00000000 ow..............
+0x6636f500: 00000048 00000000 50000490 000001c6 H..........P....
+0x6636f510: 0000001e 00000000 00000000 00000000 ................
+0x6636f520: 0000001e 00000000 00000048 00000000 ........H.......
+0x6636f530: 00000000 00000000 6d657243 206e0061 ........Crema.n 
+0x6636f540: 646e6556 0000726f 00000005 00000000 Vendor..........
+0x6636f550: 00000048 00000000 b0012b80 000001c6 H........+......
+0x6636f560: 00000040 00000000 00000000 00000000 @...............
+0x6636f570: 00000040 00000000 00000048 00000000 @.......H.......
+0x6636f580: 00000000 00000000 00000000 00000000 ................
+0x6636f590: 00000000 00000000 00000000 00000000 ................
+0x6636f5a0: 00000000 00000000 00000000 00000000 ................
+0x6636f5b0: 00000000 00000000 00000000 00000000 ................
+0x6636f5c0: 00000000 00000000 00000000 00000000 ................
+0x6636f5d0: ef3c1844 00007ff7 00000001 00000000 D.<.............
+0x6636f5e0: 00000000 00000000 00000000 00000000 ................
+0x6636f5f0: 00000002 00000000 00000000 00000000 ................
+0x6636f600: c19380b0 00007ffe 00000001 00000000 ................
+0x6636f610: c1938260 00007ffe c1938110 00007ffe `...............
+0x6636f620: 00000002 00000000 c1937f60 00007ffe ........`.......
+0x6636f630: c195c830 00007ffe 4b150000 000001c6 0..........K....
+0x6636f640: 4b151000 000001c6 00003000 00000000 ...K.....0......
+0x6636f650: 00001000 00000000 0000029c 00000000 ................
+0x6636f660: 00000284 00000000 00000280 00000000 ................
+0x6636f670: 00000288 00000000 00000294 00000000 ................
+0x6636f680: 00000290 00000000 ffffffff ffffffff ................
+0x6636f690: ffffffff 00000000 00000000 00000000 ................
+0x6636f6a0: 00000000 00000000 000000c8 00000000 ................
+0x6636f6b0: 00002c64 00430022 005c003a 00720050 d,..".C.:.\.P.r.
+0x6636f6c0: 0067006f 00610072 0020006d 00690046 o.g.r.a.m. .F.i.
+0x6636f6d0: 0065006c 00200073 00780028 00360038 l.e.s. .(.x.8.6.
+0x6636f6e0: 005c0029 00740053 00610065 005c006d ).\.S.t.e.a.m.\.
+0x6636f6f0: 00740073 00610065 0061006d 00700070 s.t.e.a.m.a.p.p.
+0x6636f700: 005c0073 006f0063 006d006d 006e006f s.\.c.o.m.m.o.n.
+0x6636f710: 0054005c 006d0065 00650074 005c006d \.T.e.m.t.e.m.\.
+0x6636f720: 006e0055 00740069 00430079 00610072 U.n.i.t.y.C.r.a.
+0x6636f730: 00680073 00610048 0064006e 0065006c s.h.H.a.n.d.l.e.
+0x6636f740: 00360072 002e0034 00780065 00220065 r.6.4...e.x.e.".
+0x6636f750: 002d0020 0061002d 00740074 00630061  .-.-.a.t.t.a.c.
+0x6636f760: 00200068 00340038 00320039 00310020 h. .8.4.9.2. .1.
+0x6636f770: 00350039 00310031 00340037 00320038 9.5.1.1.7.4.8.2.
+0x6636f780: 00390033 00360033 00000000 00000000 3.9.3.6.........
+0x6636f790: 00000000 00000000 00000000 00000000 ................
+0x6636f7a0: 00000000 00000000 00000000 00000000 ................
+0x6636f7b0: 00000000 00000000 00000000 00000000 ................
+0x6636f7c0: 00000000 00000000 00000000 00000000 ................
+0x6636f7d0: 00000000 00000000 00000000 00000000 ................
+0x6636f7e0: 00000000 00000000 00000000 00000000 ................
+0x6636f7f0: 00000000 00000000 00000000 00000000 ................
+0x6636f800: 00000000 00000000 00000000 00000000 ................
+0x6636f810: 00000000 00000000 00000000 00000000 ................
+0x6636f820: 00000000 00000000 00000000 00000000 ................
+0x6636f830: 00000000 00000000 00000000 00000000 ................
+0x6636f840: 00000000 00000000 00000000 00000000 ................
+0x6636f850: 00000000 00000000 00000000 00000000 ................
+0x6636f860: 00000000 00000000 00000000 00000000 ................
+0x6636f870: 00000000 00000000 00000000 00000000 ................
+0x6636f880: 00000000 00000000 00000000 00000000 ................
+0x6636f890: 00000000 00000000 00000000 00000000 ................
+0x6636f8a0: 00000000 00000000 00000000 00000000 ................
+0x6636f8b0: 00000000 00000000 00000000 00000000 ................
+0x6636f8c0: 00000000 00000000 00000000 00000000 ................
+0x6636f8d0: 00000000 00000000 00000000 00000000 ................
+0x6636f8e0: 00000000 00000000 00000000 00000000 ................
+0x6636f8f0: 00000000 00000000 00000000 00000000 ................
+0x6636f900: 00000000 00000000 00000000 00000000 ................
+0x6636f910: 00000000 00000000 00000000 00000000 ................
+0x6636f920: 00000000 00000000 00000000 00000000 ................
+0x6636f930: 00000000 00000000 00000000 00000000 ................
+0x6636f940: 00000000 00000000 00000000 00000000 ................
+0x6636f950: 00000000 00000000 00000000 00000000 ................
+0x6636f960: 00000000 00000000 00000000 00000000 ................
+0x6636f970: 00000000 00000000 00000000 00000000 ................
+0x6636f980: 00000000 00000000 00000000 00000000 ................
+0x6636f990: 00000000 00000000 00000000 00000000 ................
+0x6636f9a0: 00000000 00000000 00000000 00000000 ................
+0x6636f9b0: 00000000 00000000 00000000 00000000 ................
+0x6636f9c0: 00000000 00000000 00000000 00000000 ................
+0x6636f9d0: 00000000 00000000 00000000 00000000 ................
+0x6636f9e0: 00000000 00000000 00000000 00000000 ................
+0x6636f9f0: 00000000 00000000 00000000 00000000 ................
+0x6636fa00: 00000000 00000000 00000000 00000000 ................
+0x6636fa10: 00000000 00000000 00000000 00000000 ................
+0x6636fa20: 00000000 00000000 00000000 00000000 ................
+0x6636fa30: 00000000 00000000 00000000 00000000 ................
+0x6636fa40: 00000000 00000000 00000000 00000000 ................
+0x6636fa50: 00000000 00000000 00000000 00000000 ................
+0x6636fa60: 00000000 00000000 00000000 00000000 ................
+0x6636fa70: 00000000 00000000 00000000 00000000 ................
+0x6636fa80: 00000000 00000000 00000000 00000000 ................
+0x6636fa90: 00000000 00000000 00000000 00000000 ................
+0x6636faa0: 00000000 00000000 00000000 00000000 ................
+0x6636fab0: 00000000 00000000 00000000 00000000 ................
+0x6636fac0: 00000000 00000000 00000000 00000000 ................
+0x6636fad0: 00000000 00000000 00000000 00000000 ................
+0x6636fae0: 00000000 00000000 00000000 00000000 ................
+0x6636faf0: 00000000 00000000 00000000 00000000 ................
+0x6636fb00: 00000000 00000000 00000000 00000000 ................
+0x6636fb10: 00000000 00000000 00000000 00000000 ................
+0x6636fb20: 00000000 00000000 00000000 00000000 ................
+0x6636fb30: 00000000 00000000 00000000 00000000 ................
+0x6636fb40: 00000000 00000000 00000000 00000000 ................
+0x6636fb50: 00000000 00000000 00000000 00000000 ................
+0x6636fb60: 00000000 00000000 00000000 00000000 ................
+0x6636fb70: 00000000 00000000 00000000 00000000 ................
+0x6636fb80: 00000000 00000000 00000000 00000000 ................
+0x6636fb90: 00000000 00000000 00000000 00000000 ................
+0x6636fba0: 00000000 00000000 00000000 00000000 ................
+0x6636fbb0: 00000000 00000000 00000000 00000000 ................
+0x6636fbc0: 00000000 00000000 00000000 00000000 ................
+0x6636fbd0: 00000000 00000000 00000000 00000000 ................
+0x6636fbe0: 00000000 00000000 00000000 00000000 ................
+0x6636fbf0: 00000000 00000000 00000000 00000000 ................
+0x6636fc00: 00000000 00000000 00000000 00000000 ................
+0x6636fc10: 00000000 00000000 00000000 00000000 ................
+0x6636fc20: 00000000 00000000 00000000 00000000 ................
+0x6636fc30: 00000000 00000000 00000000 00000000 ................
+0x6636fc40: 00000000 00000000 00000000 00000000 ................
+0x6636fc50: 00000000 00000000 00000000 00000000 ................
+0x6636fc60: 00000000 00000000 00000000 00000000 ................
+0x6636fc70: 00000000 00000000 00000000 00000000 ................
+0x6636fc80: 00000000 00000000 00000000 00000000 ................
+0x6636fc90: 00000000 00000000 00000000 00000000 ................
+0x6636fca0: 00000000 00000000 00000000 00000000 ................
+0x6636fcb0: 00000000 00000000 00000000 00000000 ................
+0x6636fcc0: 00000000 00000000 00000000 00000000 ................
+0x6636fcd0: 00000000 00000000 00000000 00000000 ................
+0x6636fce0: 00000000 00000000 00000000 00000000 ................
+0x6636fcf0: 00000000 00000000 00000000 00000000 ................
+0x6636fd00: 00000000 00000000 00000000 00000000 ................
+0x6636fd10: 00000000 00000000 00000000 00000000 ................
+0x6636fd20: 00000000 00000000 00000000 00000000 ................
+0x6636fd30: 00000000 00000000 00000000 00000000 ................
+0x6636fd40: 00000000 00000000 00000000 00000000 ................
+0x6636fd50: 00000000 00000000 00000000 00000000 ................
+0x6636fd60: 00000000 00000000 00000000 00000000 ................
+0x6636fd70: 00000000 00000000 00000000 00000000 ................
+0x6636fd80: 00000000 00000000 00000000 00000000 ................
+0x6636fd90: 00000000 00000000 00000000 00000000 ................
+0x6636fda0: 00000000 00000000 00000000 00000000 ................
+0x6636fdb0: 00000000 00000000 00000000 00000000 ................
+0x6636fdc0: 00000000 00000000 00000000 00000000 ................
+0x6636fdd0: 00000000 00000000 00000000 00000000 ................
+0x6636fde0: 00000000 00000000 00000000 00000000 ................
+0x6636fdf0: 00000000 00000000 00000000 00000000 ................
+0x6636fe00: 00000000 00000000 00000000 00000000 ................
+0x6636fe10: 00000000 00000000 00000000 00000000 ................
+0x6636fe20: 00000000 00000000 00000000 00000000 ................
+0x6636fe30: 00000000 00000000 00000000 00000000 ................
+0x6636fe40: 00000000 00000000 00000000 00000000 ................
+0x6636fe50: 00000000 00000000 00000000 00000000 ................
+0x6636fe60: 00000000 00000000 00000000 00000000 ................
+0x6636fe70: 00000000 00000000 00000000 00000000 ................
+0x6636fe80: 00000000 00000000 00000000 00000000 ................
+0x6636fe90: 00000000 00000000 00000000 00000000 ................
+0x6636fea0: 00000000 00000000 00000000 00000000 ................
+0x6636feb0: 00000000 00000000 00000000 00000000 ................
+0x6636fec0: 00000000 00000000 00000000 00000000 ................
+0x6636fed0: 00000000 00000000 00000000 00000000 ................
+0x6636fee0: 00000000 00000000 00000000 00000000 ................
+0x6636fef0: 00000000 00000000 00000000 00000000 ................
+0x6636ff00: 00000000 00000000 00000000 00000000 ................
+0x6636ff10: 00000000 00000000 00000000 00000000 ................
+0x6636ff20: 00000000 00000000 00000000 00000000 ................
+0x6636ff30: 00000000 00000000 00000000 00000000 ................
+0x6636ff40: 00000000 00000000 00000000 00000000 ................
+0x6636ff50: 00000000 00000000 00000000 00000000 ................
+0x6636ff60: 00000000 00000000 00000000 00000000 ................
+0x6636ff70: 00000000 00000000 00000000 00000000 ................
+0x6636ff80: 00000000 00000000 00000000 00000000 ................
+0x6636ff90: 00000000 00000000 00000000 00000000 ................
+0x6636ffa0: 00000000 00000000 00000000 00000000 ................
+0x6636ffb0: 00000000 00000000 00000000 00000000 ................
+0x6636ffc0: 00000000 00000000 00000000 00000000 ................
+0x6636ffd0: 00000000 00000000 00000000 00000000 ................
+0x6636ffe0: 00000000 00000000 00000000 00000000 ................
+0x6636fff0: 00000000 00000000 00000000 00000000 ................
+0x66370000: 00000000 00000000 00000000 00000000 ................
+0x66370010: 00000000 00000000 00000000 00000000 ................
+0x66370020: 00000000 00000000 00000000 00000000 ................
+0x66370030: 00000000 00000000 00000000 00000000 ................
+0x66370040: 00000000 00000000 00000000 00000000 ................
+0x66370050: 00000000 00000000 00000000 00000000 ................
+0x66370060: 00000000 00000000 00000000 00000000 ................
+0x66370070: 00000000 00000000 00000000 00000000 ................
+0x66370080: 00000000 00000000 00000000 00000000 ................
+0x66370090: 00000000 00000000 00000000 00000000 ................
+0x663700a0: 00000000 00000000 00000000 00000000 ................
+0x663700b0: 00000000 00000000 00000000 00000000 ................
+0x663700c0: 00000000 00000000 00000000 00000000 ................
+0x663700d0: 00000000 00000000 00000000 00000000 ................
+0x663700e0: 00000000 00000000 00000000 00000000 ................
+0x663700f0: 00000000 00000000 00000000 00000000 ................
+0x66370100: 00000000 00000000 00000000 00000000 ................
+0x66370110: 00000000 00000000 00000000 00000000 ................
+0x66370120: 00000000 00000000 00000000 00000000 ................
+0x66370130: 00000000 00000000 00000000 00000000 ................
+0x66370140: 00000000 00000000 00000000 00000000 ................
+0x66370150: 00000000 00000000 00000000 00000000 ................
+0x66370160: 00000000 00000000 00000000 00000000 ................
+0x66370170: 00000000 00000000 00000000 00000000 ................
+0x66370180: 00000000 00000000 00000000 00000000 ................
+0x66370190: 00000000 00000000 00000000 00000000 ................
+0x663701a0: 00000000 00000000 00000000 00000000 ................
+0x663701b0: 00000000 00000000 00000000 00000000 ................
+0x663701c0: 00000000 00000000 00000000 00000000 ................
+0x663701d0: 00000000 00000000 00000000 00000000 ................
+0x663701e0: 00000000 00000000 00000000 00000000 ................
+0x663701f0: 00000000 00000000 00000000 00000000 ................
+
+Module 1
+C:\WINDOWS\SYSTEM32\xinput1_3.dll
+Image Base: 0x00400000  Image Size: 0x0001e000
+File Size:  107368      File Time:  2007-04-04_195422
+Version:
+   Company:    Microsoft Corporation
+   Product:    Microsoft® DirectX for Windows®
+   FileDesc:   Microsoft Common Controller API
+   FileVer:    9.18.944.0
+   ProdVer:    9.18.944.0
+
+Module 2
+C:\WINDOWS\SYSTEM32\xinput1_2.DLL
+Image Base: 0x00400000  Image Size: 0x00018000
+File Size:  83736       File Time:  2006-07-28_103108
+Version:
+   Company:    Microsoft Corporation
+   Product:    Microsoft® DirectX for Windows®
+   FileDesc:   Microsoft Common Controller API
+   FileVer:    9.14.701.0
+   ProdVer:    9.14.701.0
+
+Module 3
+C:\WINDOWS\SYSTEM32\xinput1_1.DLL
+Image Base: 0x00400000  Image Size: 0x00018000
+File Size:  83664       File Time:  2006-03-31_133948
+Version:
+   Company:    Microsoft Corporation
+   Product:    Microsoft® DirectX for Windows®
+   FileDesc:   Microsoft Common Controller API
+   FileVer:    9.12.589.0
+   ProdVer:    9.12.589.0
+
+Crash Report configuration:
+ * App Name: Temtem
+ * App Version: Unity 2019.4.14f1_df5769635aab
+ * Mono DLL: C:\Program Files (x86)\Steam\steamapps\common\Temtem\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll
+ * Bug Reporter App Path: 
+ * Crash Report Path: C:\Users\ztakc\AppData\Local\Temp\Crema\Temtem\Crashes
+ * Is Editor: false
+
+Crash Report metadata:
+
+Additional report files:
+ * "C:\Users\ztakc\AppData\LocalLow\Crema\Temtem\Player.log" (Output log file)
+
+
+
+== [end of error.log] ==
